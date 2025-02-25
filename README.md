@@ -13,6 +13,52 @@ Audio Separator is a Python package that allows you to separate an audio file in
 
 The simplest (and probably most used) use case for this package is to separate an audio file into two stems, Instrumental and Vocals, which can be very useful for producing karaoke videos! However, the models available in UVR can separate audio into many more stems, such as Drums, Bass, Piano, and Guitar, and perform other audio processing tasks, such as denoising or removing echo/reverb.
 
+
+# Table of Contents
+
+## Overview
+- [Features](#features)
+- [Installation](#installation)
+
+## Hardware & Platform Support
+- [Docker](#docker)
+- [NVIDIA GPU with CUDA or Google Colab](#nvidia-gpu-with-cuda-or-google-colab)
+- [Apple Silicon / macOS Sonoma+ (M1 or newer with CoreML acceleration)](#apple-silicon)
+- [CPU Only (No Hardware Acceleration)](#cpu-only-no-hardware-acceleration)
+- [FFmpeg Dependency](#ffmpeg-dependency)
+
+## Usage
+- [Usage Overview](#usage)
+- [Command-Line Interface (CLI)](#command-line-interface-cli)
+  - [Filtering Models](#filtering-models)
+  - [Limiting Results](#limiting-results)
+  - [JSON Output](#json-output)
+  - [Full CLI Options](#full-cli-options)
+- [Using as a Python Dependency](#using-as-a-python-dependency)
+- [Batch Processing & Multiple Models](#batch-processing--multiple-models)
+- [Renaming Stems](#renaming-stems)
+- [Separator Class Parameters](#separator-class-parameters)
+
+## Setup & Installation
+- [Requirements](#requirements)
+- [Prerequisites](#prerequisites)
+- [Clone the Repository](#clone-the-repository)
+- [Conda Environment Setup](#conda-environment-setup)
+  - [Create & Activate Environment](#create--activate-environment)
+  - [Install Dependencies](#install-dependencies)
+  - [Run CLI Locally](#run-cli-locally)
+  - [Deactivate Environment](#deactivate-environment)
+- [Building the Package](#building-the-package)
+
+## Contributing & Credits
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits](#credits)
+- [Contact](#contact)
+- [Sponsors](#sponsors)
+
+
+
 ## Features
 
 - Separate audio into multiple stems, e.g. instrumental and vocals.
