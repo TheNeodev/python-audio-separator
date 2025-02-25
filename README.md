@@ -18,12 +18,12 @@ The simplest (and probably most used) use case for this package is to separate a
 
 ## Overview
 - [Features](#features)
-- [Installation](#installation)
+- [Installation 🛠️](#installation-🛠️)
 
 ## Hardware & Platform Support
-- [Docker](#docker)
-- [NVIDIA GPU with CUDA or Google Colab](#nvidia-gpu-with-cuda-or-google-colab)
-- [Apple Silicon / macOS Sonoma+ (M1 or newer with CoreML acceleration)](#apple-silicon)
+- [🐳 Docker](#🐳-docker)
+- [ 🎮 Nvidia GPU with CUDA or 🧪 Google Colab](#🎮-Nvidia-GPU-with-CUDA-or-🧪-Google-Colab)
+- [ Apple Silicon, macOS Sonoma+ with M1 or newer CPU (CoreML acceleration))](#-Apple-Silicon,-macOS-Sonoma+-with-M1-or-newer-CPU (CoreML acceleration))
 - [CPU Only (No Hardware Acceleration)](#cpu-only-no-hardware-acceleration)
 - [FFmpeg Dependency](#ffmpeg-dependency)
 
